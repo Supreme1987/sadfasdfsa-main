@@ -472,4 +472,18 @@ margin-bottom: 15px;
 .img_footer{
     margin-left: 20px;
 }
-
+.owl-item{
+        padding-right: 40px;}
+.owl-dot span{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 15px;
+}
+.owl-dot.active span{
+    background-color: #869791;
+    height: 20px;
+    width: 20px;
+}
