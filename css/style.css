@@ -153,7 +153,7 @@ header nav  ul li:last-of-type a{
     flex-wrap: wrap;
 }
 .what_we_do .item{
-    max-width: 575px;
+    max-width: 576px;
     margin-bottom: 16px;
     position: relative;
 }
@@ -486,4 +486,10 @@ margin-bottom: 15px;
     background-color: #869791;
     height: 20px;
     width: 20px;
+}
+.ui-accordion .ui-accordion-content {padding: 0px;background-color: black;border: none;height: 100%}
+.ui-accordion .ui-accordion-header {display: inline-flex;border-radius: 16px;}
+.ui-accordion .ui-accordion-header:hover {background-color: white;color: black}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background:none;border-color: white;
 }
