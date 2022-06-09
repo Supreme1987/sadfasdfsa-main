@@ -20,34 +20,72 @@
 
 </head>
 <body>
-<header>
-    <div class="container d-flex">
-        <a href="index.html">
-            <img src="image/logo.svg" alt="logo">
-        </a>
-        <nav>
-            <ul class="d-flex">
-                <li>
-                    <a href="#" class="logo">Business areas</a>
-                </li>
-                <li>
-                    <a href="#">Featured images</a>
-                </li>
-                <li>
-                    <a href="#">Gear cage</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Get template</a>
-                </li>
-            </ul>
-        </nav>
-
+<header class="cd-header">
+    <div class="container">
+    <a href="index.html">
+        <img src="image/logo.svg" alt="logo">
+    </a>
+    <a href="#0" class="cd-3d-nav-trigger">
+        Menu
+        <span></span>
+    </a>
     </div>
-
 </header>
+
+
+<nav class="cd-3d-nav-container">
+    <ul class="cd-3d-nav">
+        <li class="cd-selected">
+            <a href="#">Business areas</a>
+        </li>
+
+        <li>
+            <a href="#0">Featured images</a>
+        </li>
+
+        <li>
+            <a href="#0">Gear cage</a>
+        </li>
+
+        <li>
+            <a href="#">Contact</a>
+        </li>
+
+        <li>
+            <a href="#">Get template</a>
+        </li>
+    </ul> <!-- .cd-3d-nav -->
+
+    <span class="cd-marker color-1"></span>
+</nav> <!-- .cd-3d-nav-container -->
+<!--<header>-->
+<!--    <div class="container d-flex">-->
+<!--        <a href="index.html">-->
+<!--            <img src="image/logo.svg" alt="logo">-->
+<!--        </a>-->
+<!--        <nav>-->
+<!--            <ul class="d-flex">-->
+<!--                <li>-->
+<!--                    <a href="#" class="logo">Business areas</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Featured images</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Gear cage</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Contact</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Get template</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+
+<!--    </div>-->
+
+<!--</header>-->
 <section class="main_banner">
     <div class="container">
         <h3>Photographer & Filmmaker</h3>
@@ -70,7 +108,7 @@
         <p class="text-center">The areas that we're specialized in.</p>
 
             <div id="accordion">
-                <h3>Button</h3>
+                <h3>More...</h3>
                 <div class="d-flex wrap">
                     <div class="item">
                         <div class="description">
@@ -90,7 +128,7 @@
                     </div>
                 </div>
 
-                <h3>Button</h3>
+                <h3>More...</h3>
                 <div class="d-flex wrap">
                     <div class="item">
                         <div class="description">
@@ -234,7 +272,7 @@
 
     </footer>
 
-
+<script src="https://kit.fontawesome.com/31d8d1ca7b.js" crossorigin="anonymous"></script>
 <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
