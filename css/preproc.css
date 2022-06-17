@@ -323,6 +323,9 @@ header .container .d-flex nav li:first-of-type {
   padding-top: 113px;
   padding-bottom: 140px;
 }
+.client .container {
+  max-width: 1168px;
+}
 .client .description h4 {
   margin-bottom: 15px;
   font-size: 40px;
@@ -333,10 +336,6 @@ header .container .d-flex nav li:first-of-type {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 82px;
-}
-
-.client.container {
-  max-width: 1168px;
 }
 
 /*section 7*/

@@ -245,8 +245,9 @@ header .container .d-flex {
   flex-wrap: wrap;
 }
 
-.what_we_do .container{
-  max-width: 1168px;
+.what_we_do
+{.container{
+  max-width: 1168px;}
 }
 
 /*section 3*/
@@ -280,10 +281,11 @@ header .container .d-flex {
     color: #FFFFFF;
   }
 }
-.fuji .container{
+.fuji{
+  .container{
   max-width: 298px;
   margin-right: 60px;
-}
+}}
 /*section 5*/
 
 .leafs{
@@ -316,36 +318,39 @@ header .container .d-flex {
     color: #FFFFFF;}
 
 }
-.leafs .container{
+.leafs{
+  .container{
   max-width: 273px;
   margin-right: 87px;
-}
+}}
 
 /*section 6*/
 
 .client{
+  .container{
+    max-width: 1168px;
+  }
   background-color: black;
   background-size: cover;
   align-items: center;
   text-align: center;
   padding-top: 113px;
   padding-bottom: 140px;
-  .description h4{
-    margin-bottom: 15px;
-    font-size: 40px;
-    line-height: 42px;
-    text-transform: none;
+  .description {
+    h4 {
+      margin-bottom: 15px;
+      font-size: 40px;
+      line-height: 42px;
+      text-transform: none;
+    }
 
-  }
-  .description p{
-    font-size: 24px;
-    line-height: 30px;
-    margin-bottom: 82px;
-  }
-}
-.client.container{
-  max-width: 1168px;
-}
+    p {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 82px;
+    }
+  }}
+
 
 /*section 7*/
 
@@ -510,7 +515,9 @@ header .container .d-flex {
     }
   }
   .search{
-    padding-top: 40px;padding-bottom:40px;justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom:40px;
+    justify-content: space-between;
   }
   .container{
     align-items: flex-start;
