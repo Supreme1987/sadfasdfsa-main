@@ -713,8 +713,8 @@ header .container .d-flex {
     text-indent: 100%;
     white-space: nowrap;
     color: transparent; }
-  .cd-3d-nav-trigger {
-    span,.cd-3d-nav-trigger span::before,
+  .cd-3d-nav-trigger span,
+  .cd-3d-nav-trigger span::before,
     .cd-3d-nav-trigger span::after {
       /* hamburger icon in CSS */
       position: absolute;
@@ -1016,7 +1016,7 @@ header .container .d-flex {
       main h1 {
         font-size: 3.6rem;
         margin: 4em auto; } }
-  }
+
 
 
 /*menu end*/
